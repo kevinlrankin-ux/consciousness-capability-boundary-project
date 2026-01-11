@@ -51,4 +51,8 @@ See `modules/GOSR/CHANGELOG.md`.
 
 ## License
 
-This stack ships without a license by default (TBD by you). Add your preferred license at repo root when ready.
+License: Governed under the CCBP framework and stewarded by Creative-Bio Solutions (CBS). See PROVENANCE.md for scope and use constraints.
+
+
+(Initial module upload complete.)
+
