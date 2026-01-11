@@ -1,9 +1,10 @@
-# consciousness-capability-boundary-project
-CCBP — governance and due-care architecture for boundary conditions between consciousness claims and operational capability.
-## License
+---
 
-This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+## License & Stewardship
 
-You are free to share and adapt the material for any purpose, including commercial use, provided appropriate attribution is given.
+This project and its associated modules (including GOSR™ — Game-play Opportunistic System Recognition) are governed under the principles of the **Consciousness-Capability Boundary Project (CCBP)** and stewarded by **Creative-Bio Solutions (CBS)**.
 
-See the LICENSE file for full legal text.
+This repository provides constitutional, non-binding analytical and governance infrastructure.  
+Outputs are informational and non-prescriptive.
+
+See [`LICENSE.md`](LICENSE.md) and module-level `PROVENANCE.md` files for scope, lineage, and use constraints.
