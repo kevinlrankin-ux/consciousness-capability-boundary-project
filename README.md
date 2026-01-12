@@ -1,3 +1,32 @@
+## Constitutional Posture & Scope
+
+This repository is governed by the **Consciousness–Capability Boundary Project (CCBP)**.
+
+All documents, prompts, and runtimes in this repo **inherit** the following constraints:
+
+- **Provenance & Posture:**  
+  See [`CCBP_PROVENANCE_HEADER.md`](./CCBP_PROVENANCE_HEADER.md)
+
+- **Explicit Non-Scope (“What This Does NOT Do”):**  
+  See [`CCBP_NOT_DOES.md`](./CCBP_NOT_DOES.md)
+
+These files define:
+- the system’s non-conscious, non-agentic posture
+- mandatory non-claims (no awareness, intent, agency, or moral standing)
+- non-directive authority and human-retained responsibility
+- boundaries that prevent anthropomorphic or moral drift
+
+Any work claiming CCBP alignment **must not contradict** these documents.
+
+---
+
+### Reading Order (Recommended)
+
+1. `CCBP_PROVENANCE_HEADER.md`
+2. `CCBP_NOT_DOES.md`
+3. This README
+4. Core specs and runtime prompts
+
 ### CCBP as a Governance Compiler (Conceptual)
 
 While not a traditional software compiler, CCBP can function as a *compiler-like system* for constrained reasoning and governance artifacts.
