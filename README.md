@@ -20,6 +20,36 @@ Any work claiming CCBP alignment **must not contradict** these documents.
 
 ---
 
+## Ease of Use & Interoperability
+
+CCBP is designed to be usable **without specialized tooling**.
+
+### Supported Usage Modes
+
+**Text (Default)**
+- Copy/paste runtime prompts directly into ChatGPT or compatible systems
+- Reference CCBP constraints instead of restating them
+
+**Voice**
+- CCBP constraints are compatible with voice-based interfaces
+- Spoken prompts may be used provided they do not introduce anthropomorphic claims
+- Outputs remain capability-only and non-agentic regardless of modality
+
+**PDF / Static Documents**
+- CCBP documents are intentionally written to survive PDF conversion
+- PDFs may be uploaded to analytical systems as reference context
+- Canonical posture is preserved through explicit provenance and non-scope files
+
+### System Compatibility
+
+CCBP artifacts are:
+- human-readable
+- machine-ingestable
+- safe for upload as context into analytical systems
+- suitable for citation, review, and reuse
+
+No compilation, plugins, or proprietary formats are required.
+
 ### Reading Order (Recommended)
 
 1. `CCBP_PROVENANCE_HEADER.md`
