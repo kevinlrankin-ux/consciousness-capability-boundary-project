@@ -7,6 +7,12 @@
   All normative and executable definitions live in the protocol and module directories.
 
 ---
+
+> **Status:** This README is a navigation surface, not a specification.
+>  
+> It exists to orient readers to authoritative documents and boundary conditions.
+> No definitions, claims, or requirements originate here.
+
 ## Constitutional Posture & Scope
 
 This repository is governed by the **Consciousnessâ€“Capability Boundary Project (CCBP)**.
