@@ -1,5 +1,18 @@
 ﻿## Start Here
 
+**Status:** This README is a navigation surface, not a specification.
+
+- It exists to orient readers to authoritative documents and boundary conditions.
+- No definitions, claims, or requirements originate here.
+
+**Non-technical overview:**  
+See docs/overview.md for a high-level, narrative introduction.
+
+**Authoritative specifications:**  
+All normative and executable definitions live in the protocol and module directories.
+
+## Start Here
+
 - **Non-technical overview:**  
   See [docs/overview.md](docs/overview.md) for a high-level, narrative introduction.
 
@@ -103,4 +116,5 @@ This repository provides constitutional, non-binding analytical and governance i
 Outputs are informational and non-prescriptive.
 
 See [`LICENSE.md`](LICENSE.md) and module-level `PROVENANCE.md` files for scope, lineage, and use constraints.
+
 
