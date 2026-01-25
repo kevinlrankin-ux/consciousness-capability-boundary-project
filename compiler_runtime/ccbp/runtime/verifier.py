@@ -36,3 +36,41 @@ def verify_invocation(invocation: dict) -> dict:
         "valid": True,
         "invocation": invocation
     }
+def verify_input_is_framework_compliant(raw: str):
+    """
+    Minimal gatekeeper used by the Shared Engine.
+
+    Returns:
+      (True, "OK")  if admissible
+      (False, <reason>) if not admissible
+    """
+    if raw is None:
+        return (False, "Input is null.")
+
+    text = str(raw).strip()
+
+    if len(text) == 0:
+        return (False, "Empty input cannot be compiled.")
+
+    # HARD REQUIREMENT (current placeholder rule):
+    # Until Book I/II/A parsing is implemented, we require the user to explicitly request compilation
+    # via a recognizable invocation marker.
+    #
+    # This prevents "freeform chat" from being treated as compilable.
+    markers = [
+        "CCBP:",            # explicit invocation prefix
+        "INVOCATION:",      # alternative explicit prefix
+        "BOOK I",           # explicit Book routing intent
+        "BOOK II",
+        "APPENDIX A",
+    ]
+
+    if not any(m.lower() in text.lower() for m in markers):
+        return (
+            False,
+            "Input is not in CCBP invocation form. "
+            "Add an explicit invocation marker (e.g., 'CCBP:' or 'INVOCATION:') "
+            "and route intent through Book I → Book II → Appendix A."
+        )
+
+    return (True, "OK")
