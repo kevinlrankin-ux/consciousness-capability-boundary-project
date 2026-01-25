@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/ccbp/schema/ccbp_refusal.schema.json",
+  "title": "CCBP Refusal Object",
+  "description": "Deterministic refusal object emitted when an input cannot be compiled into the Book I → Book II → Appendix A framework.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "code",
+    "message",
+    "required_next_step",
+    "schema_version",
+    "timestamp",
+    "invocation_hash"
+  ],
+  "properties": {
+    "kind": {
+      "type": "string",
+      "const": "refusal"
+    },
+    "code": {
+      "type": "string",
+      "enum": [
+        "NON_FRAMEWORK_INPUT",
+        "MISSING_INVOCATION_OBJECT",
+        "INVALID_INVOCATION_OBJECT",
+        "MISSING_BOOK_ROUTING",
+        "FAILED_BOOK_ROUTING",
+        "APPENDIX_A_NONCOMPLIANCE",
+        "UNSAFE_OR_OUT_OF_SCOPE",
+        "INTERNAL_COMPILER_ERROR"
+      ]
+    },
+    "message": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "description": "Short, dignity-preserving refusal message (non-argumentative)."
+    },
+    "required_next_step": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000,
+      "description": "What the caller must provide to be compilable (structural requirements, not persuasion)."
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semver for the refusal object contract."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "RFC3339/ISO timestamp of refusal emission."
+    },
+    "invocation_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 hex of the canonical invocation payload (audit anchor / NIT-ready)."
+    },
+    "trace": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Optional structural trace useful for debugging/audit without exposing sensitive content.",
+      "required": ["stage"],
+      "properties": {
+        "stage": {
+          "type": "string",
+          "enum": [
+            "INGEST_NORMALIZATION",
+            "INVOCATION_PARSE",
+            "BOOK_I_CLASSIFICATION",
+            "BOOK_II_CAPABILITY_SELECTION",
+            "APPENDIX_A_CONSTRAINTS",
+            "EMIT"
+          ]
+        },
+        "violations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["rule_id", "summary"],
+            "properties": {
+              "rule_id": { "type": "string", "minLength": 1, "maxLength": 100 },
+              "summary": { "type": "string", "minLength": 1, "maxLength": 300 }
+            }
+          }
+        }
+      }
+    },
+    "safe_example_invocation": {
+      "type": "object",
+      "description": "Optional copy/paste template for a compliant invocation object.",
+      "additionalProperties": true
+    }
+  }
+}
