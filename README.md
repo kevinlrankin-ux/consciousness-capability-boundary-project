@@ -1,120 +1,191 @@
-﻿## Start Here
+# The Consciousness–Capability Boundary Project (CCBP)
 
-**Status:** This README is a navigation surface, not a specification.
-
-- It exists to orient readers to authoritative documents and boundary conditions.
-- No definitions, claims, or requirements originate here.
-
-**Non-technical overview:**  
-See docs/overview.md for a high-level, narrative introduction.
-
-**Authoritative specifications:**  
-All normative and executable definitions live in the protocol and module directories.
-
-## Start Here
-
-- **Non-technical overview:**  
-  See [docs/overview.md](docs/overview.md) for a high-level, narrative introduction.
-
-- **Authoritative specifications:**  
-  All normative and executable definitions live in the protocol and module directories.
+> Governing capability under divergence — so power scales without losing meaning.
 
 ---
 
-> **Status:** This README is a navigation surface, not a specification.
->  
-> It exists to orient readers to authoritative documents and boundary conditions.
-> No definitions, claims, or requirements originate here.
+## Overview
 
-## Constitutional Posture & Scope
+The **Consciousness–Capability Boundary Project (CCBP)** establishes governance conditions for systems whose capabilities scale faster than human intuition.
 
-This repository is governed by the **Consciousnessâ€“Capability Boundary Project (CCBP)**.
+CCBP does not:
+- define consciousness
+- grant personhood
+- assign moral status
 
-All documents, prompts, and runtimes in this repo **inherit** the following constraints:
+CCBP ensures:
 
-- **Provenance & Posture:**  
-  See [`CCBP_PROVENANCE_HEADER.md`](./CCBP_PROVENANCE_HEADER.md)
-
-- **Explicit Non-Scope (â€œWhat This Does NOT Doâ€):**  
-  See [`CCBP_NOT_DOES.md`](./CCBP_NOT_DOES.md)
-
-These files define:
-- the systemâ€™s non-conscious, non-agentic posture
-- mandatory non-claims (no awareness, intent, agency, or moral standing)
-- non-directive authority and human-retained responsibility
-- boundaries that prevent anthropomorphic or moral drift
-
-Any work claiming CCBP alignment **must not contradict** these documents.
+> Capability remains aligned with responsibility, due care, and long-term human flourishing.
 
 ---
 
-## Ease of Use & Interoperability
+## Core Thesis
 
-CCBP is designed to be usable **without specialized tooling**.
+Systems fail not when capability grows too fast —  
+but when meaning, responsibility, and judgment fail to keep pace.
 
-### Supported Usage Modes
+CCBP treats misalignment as a **design failure**, not a moral one.
 
-**Text (Default)**
-- Copy/paste runtime prompts directly into ChatGPT or compatible systems
-- Reference CCBP constraints instead of restating them
+---
 
-**Voice**
-- CCBP constraints are compatible with voice-based interfaces
-- Spoken prompts may be used provided they do not introduce anthropomorphic claims
-- Outputs remain capability-only and non-agentic regardless of modality
+## Repository Status
 
-**PDF / Static Documents**
-- CCBP documents are intentionally written to survive PDF conversion
-- PDFs may be uploaded to analytical systems as reference context
-- Canonical posture is preserved through explicit provenance and non-scope files
+This repository contains the **authoritative v1.0.3 corpus** of CCBP.
 
-### System Compatibility
+Contents are:
+- canonical
+- immutable (for citation)
+- pre-CLP (Constitutional Language Protocol)
+
+This repository is **not an execution layer**.
+
+---
+
+## Repository Role
+
+This repository serves as:
+
+- an authoritative source corpus
+- a citation reference
+- a governance artifact archive
+
+This repository does **not** serve as:
+
+- a runtime system
+- an execution engine
+- an automation surface
+- a decision-making system
+
+---
+
+## Foundational Model
+
+CCBP operates across three synchronized layers:
+
+### Human Layer (Experience)
+- meaning
+- consequence
+- responsibility
+- due care
+
+### System Layer (Capability)
+- analysis
+- optimization
+- simulation
+- scale
+
+### Governance Layer (CCBP)
+- alignment
+- proportionality
+- traceability
+- legitimacy
+
+> Flourishing requires all three — kept in synchrony.
+
+---
+
+## Foundational Axioms
+
+- **Purpose Before Power**
+- **Fidelity Through Adaptation**
+- **Intent Must Be Legible**
+- **Restraint and Proportionality**
+- **Stewardship Over Finality**
+
+These define interpretive gravity across all artifacts.
+
+---
+
+## The Archons (Structural Invariants)
+
+- Orientation
+- Integration
+- Proportionality
+- Continuity
+- Stewardship
+
+The Archons:
+- do not decide outcomes
+- do not hold authority
+- reveal misalignment
+
+---
+
+## Key Constraints
+
+### Capability ≠ Consciousness
+System capability must not be interpreted as experience or moral status.
+
+### Authority Asymmetry
+Final authority remains human. Responsibility cannot be delegated.
+
+### Due Care Requirement
+Due care originates in lived experience and remains human-bound.
+
+### Mirror Constraint
+Implementation may increase precision — never power.
+
+---
+
+## Governance Mechanisms
+
+- Parallel Renewal
+- Tiered Review (60% deliberation / 80% arbitration)
+- Ethical Containment
+- Traceability Enforcement
+
+---
+
+## Boundary Conditions
 
 CCBP artifacts are:
+
 - human-readable
-- machine-ingestable
-- safe for upload as context into analytical systems
-- suitable for citation, review, and reuse
+- machine-readable
+- citation-safe
 
-No compilation, plugins, or proprietary formats are required.
+They are not:
 
-### Reading Order (Recommended)
-
-1. `CCBP_PROVENANCE_HEADER.md`
-2. `CCBP_NOT_DOES.md`
-3. This README
-4. Core specs and runtime prompts
-
-### CCBP as a Governance Compiler (Conceptual)
-
-While not a traditional software compiler, CCBP can function as a *compiler-like system* for constrained reasoning and governance artifacts.
-
-Inputs (human or AI) are processed through:
-- constitutional constraints,
-- formal grammars (e.g., CLP),
-- enforcement lenses (e.g., the Archons),
-
-to produce outputs that are:
-- bounded,
-- repeatable,
-- auditable,
-- and safe to operate at scale.
-
-In this sense, CCBP â€œcompilesâ€ intent into structured, governed outputs rather than executable binaries.
-
-Adds a concise explanation of how CCBP functions as a compiler-like system for
-constrained reasoning and governance artifacts, without implying traditional
-software compilation or enforcement guarantees.
+- self-executing
+- self-authorizing
+- self-interpreting
 
 ---
 
-## License & Stewardship
+## Lifecycle Model
 
-This project and its associated modules (including GOSRâ„¢ â€” Game-play Opportunistic System Recognition) are governed under the principles of the **Consciousness-Capability Boundary Project (CCBP)** and stewarded by **Creative-Bio Solutions (CBS)**.
+capability → stress → detection → review → governance → renewal → resumption
 
-This repository provides constitutional, non-binding analytical and governance infrastructure.  
-Outputs are informational and non-prescriptive.
+---
 
-See [`LICENSE.md`](LICENSE.md) and module-level `PROVENANCE.md` files for scope, lineage, and use constraints.
+## Included Canonical Materials
 
+- CCBP_Book_I_v1.0.3.pdf
+- CCBP_Book_II_v1.0.3.pdf
+- CCBP_Appendix_A_v1.0.3.pdf
 
+These are immutable citation mirrors.
+
+---
+
+## Boundary Note
+
+Operational systems (CLP, ASP, runtime enforcement) must exist **outside this repository** unless explicitly governed artifacts are introduced.
+
+---
+
+## Closing
+
+Experience anchors responsibility.  
+Capability expands action.  
+Governance preserves alignment.
+
+---
+
+## Acknowledgment
+
+This work reflects human authorship and judgment, supported by AI for synthesis and analysis.
+
+- Collaboration without delegation  
+- Assistance without agency  
+- Harmony without confusion
